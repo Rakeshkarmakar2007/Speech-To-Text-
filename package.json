@@ -2,9 +2,9 @@
   "name": "speech-to-text",
   "version": "1.0.0",
   "description": "A speech-to-text server using Express, Multer, AssemblyAI, and WAV processing",
-  "main": "index.js",
+  "main": "sst.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node sst.js"
   },
   "dependencies": {
     "express": "^4.18.2",
