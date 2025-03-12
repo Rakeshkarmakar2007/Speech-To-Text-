@@ -2,16 +2,15 @@ const express = require('express');
 const multer = require('multer');
 const fs = require('fs');
 const path = require('path');
-const AssemblyAI = require('assemblyai'); // Fix: Properly import AssemblyAI
+const AssemblyAI = require('assemblyai');
 const wav = require('wav');
 
 const app = express();
 const port = 5000;
 
 // AssemblyAI Client Setup
-const client = new AssemblyAI({
-    apiKey: "795e48ee75f64a1b8caf28dfba50e1a3"
-});
+const client = new AssemblyAI();
+client.apiKey = "795e48ee75f64a1b8caf28dfba50e1a3";
 
 // Middleware to handle raw audio file upload
 const storage = multer.memoryStorage();
