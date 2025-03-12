@@ -1,19 +1,19 @@
 {
-  "name": "speech-to-text",
+  "name": "sst",
   "version": "1.0.0",
-  "description": "A speech-to-text server using Express, Multer, AssemblyAI, and WAV processing",
+  "description": "Speech to Text",
   "main": "sst.js",
   "scripts": {
     "start": "node sst.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "multer": "^1.4.5-lts.1",
-    "fs": "0.0.1-security",
-    "path": "^0.12.7",
     "assemblyai": "^1.0.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
     "wav": "^1.0.2"
   },
-  "author": "Rakesh Karmakar",
-  "license": "MIT"
+  "author": "rakesh karmakar",
+  "license": "UNLICENSED"
 }
