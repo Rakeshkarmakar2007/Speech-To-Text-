@@ -1,0 +1,17 @@
+{
+  "name": "sst",
+  "version": "1.0.0",
+  "description": "Speech to Text",
+  "main": "sst.js",
+  "scripts": {
+    "start": "node sst.js",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [],
+  "author": "Rakesh Karmakar",
+  "license": "MIT"
+}
