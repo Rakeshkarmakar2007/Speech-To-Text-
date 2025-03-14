@@ -12,7 +12,7 @@
     "multer": "^1.4.5-lts.1",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
-    "assemblyai": "^1.0.9",
+    "assemblyai": "^1.0.6",
     "wav": "^1.0.2"
   },
   "author": "Rakesh Karmakar",
