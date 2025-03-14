@@ -10,7 +10,7 @@ const port = 5000;
 
 // AssemblyAI Client Setup
 const client = new AssemblyAI({
-    apiKey: "795e48ee75f64a1b8caf28dfba50e1a3"
+    apiKey: "795e48ee75f64a1b8caf28dfba50e1a3",
 })
 
 // Middleware to handle raw audio file upload
